@@ -1,0 +1,230 @@
+.titleSection {
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #4a4a4a;
+    margin: 0;
+}
+
+.parentContainer {
+    width: 70%;
+    max-width: 1200px;
+    margin: 50px auto 70px;
+    padding: 2rem 1rem;
+}
+
+.titleSection {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+
+.space {
+    flex: 1;
+    height: 2px;
+    background: linear-gradient(90deg, #666 0%, transparent 100%);
+}
+
+
+/* Claude's css  */
+
+
+
+.timelineContainer {
+    position: relative;
+    padding-left: 3rem;
+    margin-left: 1rem;
+}
+
+.timelineLine {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 6px;
+    background: linear-gradient(180deg, 
+        rgba(255, 255, 255, 0.2) 0%, 
+        rgba(255, 255, 255, 0.1) 100%
+    );
+}
+
+.timelineItem {
+    position: relative;
+    margin-bottom: 3rem;
+    animation: slideIn 0.5s ease forwards;
+    opacity: 0;
+}
+
+.timelineItem:last-child {
+    margin-bottom: 0;
+}
+
+.timelineDot {
+    position: absolute;
+    left: -3.3rem;
+    top: 3.5rem;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #707070;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+.timelineItem:hover .timelineDot {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.timelineContent {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 2.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+.timelineContent:hover {
+    transform: translateX(10px);
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.timelineHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.75rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.instituteName {
+    font-size: 1.25rem;
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+}
+
+.duration {
+    color: #c2c2c2;
+    font-size: 0.9rem;
+    padding: 0.25rem 0.75rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+}
+
+.timelineDetails {
+    color: #999;
+}
+
+.degree {
+    font-size: 1rem;
+    margin: 0 0 0.5rem 0;
+}
+
+.percentage {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale : 0.5;
+    }
+    to {
+        opacity: 1;
+        scale : 1;
+    }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .parentContainer {
+        width: 100%;
+    }
+    .titleSection {
+        margin-bottom: 2rem;
+    }
+
+    .subtitle {
+        font-size: 2rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .timelineContainer {
+        padding-left: 2rem;
+        margin-left: 0;
+    }
+
+    .timelineDot {
+        left: -2.2rem;
+        top: 6rem;
+        width: 12px;
+        height: 12px;
+    }
+
+    .timelineContent {
+        padding: 1.25rem;
+    }
+
+    .instituteName {
+        font-size: 1.1rem;
+    }
+
+    .timelineHeader {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .duration {
+        align-self: flex-start;
+    }
+}
+
+/* For very small screens */
+@media (max-width: 360px) {
+    .timelineContainer {
+        padding-left: 1.5rem;
+    }
+
+    .timelineDot {
+        left: -1.6rem;
+    }
+
+    .timelineContent {
+        padding: 1rem;
+    }
+}

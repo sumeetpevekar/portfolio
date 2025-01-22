@@ -1,0 +1,171 @@
+.parentContainer {
+    width: 80%;
+    margin: 50px auto 70px;
+    max-width: 1200px;
+}
+
+.titleSection {
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #4a4a4a;
+    margin: 0;
+}
+
+.parentContainer {
+    width: 70%;
+    max-width: 1200px;
+    margin: 50px auto 70px;
+    padding: 2rem 1rem;
+}
+
+.titleSection {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+
+.space {
+    flex: 1;
+    height: 2px;
+    background: linear-gradient(90deg, #666 0%, transparent 100%);
+}
+
+.projectsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    width: 100%;
+}
+
+.projectCard {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeIn 0.5s ease forwards;
+    opacity: 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.projectCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border-color: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.projectContent {
+    padding: 1.5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectName {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.projectDescription {
+    color: #999;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    flex-grow: 1;
+    margin-bottom: 1.5rem;
+}
+
+.projectLinks {
+    display: flex;
+    gap: 1rem;
+    margin-top: auto;
+}
+
+.projectLink {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.projectLink:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.projectLink span {
+    font-size: 0.9rem;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .parentContainer {
+        width: 100%;
+    }
+    
+    .titleSection {
+        margin-bottom: 2rem;
+    }
+
+    .subtitle {
+        font-size: 2rem;
+    }
+
+    .title {
+        font-size: 1.75rem;
+    }
+
+    .projectsGrid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .projectContent {
+        padding: 1.25rem;
+    }
+}
+
+/* For very small screens */
+@media (max-width: 360px) {
+    .projectLinks {
+        flex-direction: column;
+    }
+
+    .projectLink {
+        width: 100%;
+        justify-content: center;
+    }
+}

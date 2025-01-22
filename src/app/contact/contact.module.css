@@ -1,0 +1,24 @@
+.parentContainer {
+    width: 70%;
+    margin: 60px auto;
+    max-width: 1200px;
+    animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .parentContainer {
+        width: 100%;
+    }
+}
