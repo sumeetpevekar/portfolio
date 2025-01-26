@@ -15,7 +15,7 @@ const Right: React.FC = () => {
 
             <div className={styles.statsContainer}>
                 <div className={styles.statItem}>
-                    <h2 className={styles.statNumber}>2+</h2>
+                    <h2 className={styles.statNumber}>3+</h2>
                     <p className={styles.statLabel}>
                         YEARS OF
                         <br />
@@ -26,7 +26,7 @@ const Right: React.FC = () => {
                 </div>
 
                 <div className={styles.statItem}>
-                    <h2 className={styles.statNumber}>11+</h2>
+                    <h2 className={styles.statNumber}>20+</h2>
                     <p className={styles.statLabel}>
                         PROJECTS
                         <br />
@@ -35,7 +35,7 @@ const Right: React.FC = () => {
                 </div>
 
                 <div className={styles.statItem}>
-                    <h2 className={styles.statNumber}>30+</h2>
+                    <h2 className={styles.statNumber}>20+</h2>
                     <p className={styles.statLabel}>
                         TECHNOLOGIES
                         <br />

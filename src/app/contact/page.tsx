@@ -5,26 +5,26 @@ import Contact from "../(components)/Contact";
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-    title: "Contact - Pratyush Sharma",
-    metadataBase: new URL("https://pratyush2374.vercel.app"),
+    title: "Contact - Sumeet Pevekar",
+    metadataBase: new URL("https://sumeetpevekar.vercel.app"),
     description:
-        "Get in touch with Pratyush Sharma. Whether you have questions, collaboration ideas, or just want to say hi, feel free to drop a message.",
+        "Get in touch with Sumeet Pevekar. Whether you have questions, collaboration ideas, or just want to say hi, feel free to drop a message.",
     keywords:
-        "Pratyush Sharma, contact, portfolio, web developer, email, connect, collaboration, projects, inquiries",
-    authors: [{ name: "Pratyush Sharma" }],
+        "Sumeet Pevekar, contact, portfolio, web developer, email, connect, collaboration, projects, inquiries",
+    authors: [{ name: "Sumeet Pevekar" }],
     robots: "index, follow",
 
     openGraph: {
-        title: "Contact - Pratyush Sharma",
+        title: "Contact - Sumeet Pevekar",
         description:
-            "Reach out to Pratyush Sharma for collaborations, inquiries, or just a friendly chat. Let's connect!",
-        siteName: "Pratyush Sharma - Portfolio",
+            "Reach out to Sumeet Pevekar for collaborations, inquiries, or just a friendly chat. Let's connect!",
+        siteName: "Sumeet Pevekar - Portfolio",
         images: [
             {
                 url: "/contact.svg",
                 width: 1200,
                 height: 630,
-                alt: "Contact Pratyush Sharma",
+                alt: "Contact Sumeet Pevekar",
             },
         ],
         type: "website",

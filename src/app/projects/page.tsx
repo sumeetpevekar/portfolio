@@ -3,26 +3,26 @@ import Projects from "./project-components/Project";
 import Navbar from "../(components)/Navbar";
 
 export const metadata: Metadata = {
-    title: "Pratyush Sharma - Projects",
-    metadataBase: new URL("https://pratyush2374.vercel.app"),
+    title: "Sumeet Pevekar - Projects",
+    metadataBase: new URL("https://sumeetpevekar.vercel.app"),
     description:
         "Explore my projects that showcase my skills as a full-stack developer. From web apps to innovative solutions, see my work come to life.",
     keywords:
-        "Pratyush Sharma, projects, web developer, full-stack developer, React, Next.js, JavaScript, portfolio projects",
-    authors: [{ name: "Pratyush Sharma" }],
+        "Sumeet Pevekar, projects, web developer, full-stack developer, React, Next.js, JavaScript, portfolio projects",
+    authors: [{ name: "Sumeet Pevekar" }],
     robots: "index, follow",
 
     openGraph: {
-        title: "Pratyush Sharma - Projects",
+        title: "Sumeet Pevekar - Projects",
         description:
-            "Explore the diverse projects by Pratyush Sharma, demonstrating expertise in web development and full-stack technologies.",
-        siteName: "Pratyush Sharma - Portfolio",
+            "Explore the diverse projects by Sumeet Pevekar, demonstrating expertise in web development and full-stack technologies.",
+        siteName: "Sumeet Pevekar - Portfolio",
         images: [
             {
                 url: "/Project.svg",
                 width: 1200,
                 height: 630,
-                alt: "Pratyush Sharma - Projects",
+                alt: "Sumeet Pevekar - Projects",
             },
         ],
         type: "website",

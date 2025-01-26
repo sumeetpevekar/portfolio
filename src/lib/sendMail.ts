@@ -15,7 +15,7 @@ async function sendEmail(fullName: string, email: string) {
         from: process.env.EMAIL_USER,
         to: email,
         subject: "Thank you for reaching out!",
-        text: `Hello ${fullName},\n\nI have received your message and will get back to you soon. Thank you for contacting me through my portfolio!\n\nBest regards,\nPratyush Sharma\n\nThis is an auto-generated email.`,
+        text: `Hello ${fullName},\n\nI have received your message and will get back to you soon. Thank you for contacting me through my portfolio!\n\nBest regards,\nSumeet Pevekar\n\nThis is an auto-generated email.`,
     };
 
     // Send the email

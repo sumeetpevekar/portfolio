@@ -7,7 +7,7 @@ import { HiOutlineMail } from "react-icons/hi";
 const Left: React.FC = () => {
     const handleEmailClick = (e: React.MouseEvent) => {
         e.preventDefault();
-        window.open("https://mail.google.com/mail/u/0/?fs=1&to=pratyushsharma237@gmail.com&su&body&tf=cm", "_blank");
+        window.open("https://mail.google.com/mail/u/0/?fs=1&to=sumeetpevekar1810@gmail.com&su&body&tf=cm", "_blank");
     };
 
     return (
@@ -16,7 +16,7 @@ const Left: React.FC = () => {
                 <div className={styles.imageContainer}>
                     <div className={styles.profileImage}>
                         <Image
-                            src="/Me.png"
+                            src="/me.jpg"
                             alt="Profile"
                             width={1000}
                             height={1000}
@@ -27,7 +27,7 @@ const Left: React.FC = () => {
                     </div>
                 </div>
 
-                <h1 className={styles.name}>Pratyush Sharma</h1>
+                <h1 className={styles.name}>Sumeet Pevekar</h1>
 
                 <p className={styles.description}>
                     Turning ideas into scalable, efficient code solutions.
@@ -52,7 +52,7 @@ const Left: React.FC = () => {
                         <span>
                             <HiOutlineMail />
                         </span>
-                        pratyushsharma2374@gmail.com
+                        sumeetpevekar1810@gmail.com
                     </p>
                 </div>
             </div>
