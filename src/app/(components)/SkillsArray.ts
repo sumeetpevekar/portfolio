@@ -24,6 +24,16 @@ const skills: Skill[] = [
         icon: "/skills/react.svg",
     },
     {
+        name: "PHP",
+        category: "Server-Side Language",
+        icon: "/skills/php.svg",
+    },
+    {
+        name: "CodeIgniter",
+        category: "Web Framework",
+        icon: "/skills/codeIgniter.svg",
+    },
+    {
         name: "Express",
         category: "Backend Framework",
         icon: "/skills/express.svg",
@@ -32,11 +42,6 @@ const skills: Skill[] = [
         name: "Node.js",
         category: "Runtime Environment",
         icon: "/skills/nodejs.svg",
-    },
-    {
-        name: "PHP",
-        category: "Server-Side Language",
-        icon: "/skills/php.svg",
     },
     {
         name: "Git & GitHub",
