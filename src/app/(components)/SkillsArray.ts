@@ -34,9 +34,9 @@ const skills: Skill[] = [
         icon: "/skills/nodejs.svg",
     },
     {
-        name: "Next.js",
-        category: "Frontend Framework",
-        icon: "/skills/nextjs.svg",
+        name: "PHP",
+        category: "Server-Side Language",
+        icon: "/skills/php.svg",
     },
     {
         name: "Git & GitHub",
