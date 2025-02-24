@@ -20,7 +20,7 @@ const skills: Skill[] = [
     { name: "CSS", category: "Styling Language", icon: "/skills/css.svg" },
     {
         name: "React",
-        category: "Frontend Framework",
+        category: "Frontend Library",
         icon: "/skills/react.svg",
     },
     {
