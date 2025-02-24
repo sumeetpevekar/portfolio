@@ -49,39 +49,26 @@ const skills: Skill[] = [
         icon: "/skills/git.svg",
     },
     { name: "MongoDB", category: "Database", icon: "/skills/mongodb.svg" },
-    {
-        name: "PostgreSQL",
-        category: "Database",
-        icon: "/skills/postgresql.svg",
-    },
     { name: "MySQL", category: "Database", icon: "/skills/mysql.svg" },
-    { name: "Redis", category: "Database", icon: "/skills/redis.svg" },
     {
         name: "Socket.IO",
         category: "Real-time Library",
         icon: "/skills/socketio.svg",
     },
     {
-        name: "Docker",
-        category: "Containerization",
-        icon: "/skills/docker.svg",
+        name: "Bootstrap",
+        category: "CSS Framework",
+        icon: "/skills/bootstrap.svg",
     },
     {
         name: "Tailwind CSS",
         category: "CSS Framework",
         icon: "/skills/tailwind.svg",
     },
-    { name: "Prisma", category: "ORM", icon: "/skills/prisma.svg" },
-    { name: "Vim", category: "Code Editor", icon: "/skills/vim.svg" },
     {
-        name: "Python",
-        category: "Programming Language",
-        icon: "/skills/python.svg",
-    },
-    {
-        name: "Java",
-        category: "Programming Language",
-        icon: "/skills/java.svg",
+        name: "OWASP",
+        category: "Application Security",
+        icon: "/skills/owasp.svg",
     },
 ];
 
