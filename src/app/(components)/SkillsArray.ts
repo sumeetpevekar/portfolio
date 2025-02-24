@@ -31,7 +31,7 @@ const skills: Skill[] = [
     {
         name: "CodeIgniter",
         category: "Web Framework",
-        icon: "/skills/codeIgniter.svg",
+        icon: "/skills/codeigniter.svg",
     },
     {
         name: "Express",
