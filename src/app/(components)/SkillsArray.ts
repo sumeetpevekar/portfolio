@@ -12,7 +12,7 @@ const skills: Skill[] = [
         icon: "/skills/javascript.svg",
     },
     {
-        name: "Jquery",
+        name: "jQuery",
         category: "Programming Language",
         icon: "/skills/jquery.svg",
     },
