@@ -1,21 +1,26 @@
 const journey = [
     {
-        name: "Kishinchand Chellaram College, Mumbai",
-        duration: "2022 - Present",
-        degree: "B.Sc. in Computer Science",
-        percentage: "Avg GPA - 9.57"
+        name: "A One Salasar Pvt. Ltd.",
+        duration: "Jul 2024 - Present",
+        degree: "Full Stack Developer",
     },
     {
-        name: "St. Xavier's College, Fort - Mumbai",
-        duration: "2020 - 2022",
-        degree: "12th Std, Science",
-        percentage: "70.17%"
+        name: "Vikas College of Arts Science and Commerce",
+        duration: "2019 - 2023",
+        degree: "BCA in Computer Science",
+        percentage: "Avg CGPA - 7.6"
     },
     {
-        name: "St. Joseph's High School",
-        duration: "2008 - 2020",
+        name: "Gurukul College of Commerce",
+        duration: "2017 - 2019",
+        degree: "12th Std, Commerce",
+        percentage: "67.23%"
+    },
+    {
+        name: "Saraswati Vidya Niketan",
+        duration: "2015 - 2017",
         degree: "10th Std",
-        percentage: "92.6%"
+        percentage: "72.60%"
     }
 ]
 

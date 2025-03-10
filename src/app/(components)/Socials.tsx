@@ -21,7 +21,7 @@ const Socials: React.FC = () => {
             id: 3,
             name: "X (Twitter)",
             icon: "/icons/twitter.svg",
-            href: "https://x.com/https://x.com/PevekarSumeet",
+            href: "https://x.com/PevekarSumeet",
         },
         {
             id: 4,

@@ -13,10 +13,10 @@ const TechHeading: React.FC = () => {
                 <p>
                     Explore my diverse skill set, featuring cutting-edge tools
                     and technologies for modern development. From frontend
-                    frameworks like React and Next.js to backend solutions with
+                    Technologies like React.js, PHP and jquery to backend solutions with
                     Express and Node.js, I excel in creating scalable web
                     applications. My expertise includes databases like MongoDB,
-                    Redis, and MySQL, along with tools like Docker, Prisma, and
+                    and MySQL, along with tools like sourcetree and
                     Git for seamless development and deployment workflows.
                 </p>
             </div>
