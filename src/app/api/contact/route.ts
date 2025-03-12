@@ -14,7 +14,7 @@ export const POST = async (req: NextRequest) => {
                     message,
                 },
             }),
-            sendEmail(name, email),
+            sendEmail(name, email, message),
         ]);
 
         return NextResponse.json({ message: "Received data" }, { status: 200 });
