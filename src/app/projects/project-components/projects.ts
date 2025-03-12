@@ -1,80 +1,70 @@
 const projects = [
     {
-        name: "PTAI",
+        name: "Blog Website",
         description:
-            "AI-based fitness app with Next.js, offering personalized workouts, nutrition plans, and fitness goals tailored to individual needs.",
-        sourceCode: "https://github.com/pratyush2374/PTAI",
-        url: "https://ptai.vercel.app",
+            "Blog website with an admin panel, offering seamless content management, secure authentication, and robust form validation for a reliable user experience.",
+        sourceCode: "https://github.com/sumeetpevekar/Blog-Website-with-CRUD-operation-MERN",
+        url: "https://blogadda-website.vercel.app",
     },
     {
-        name: "Slinkit",
+        name: "Call Log - CRM",
         description:
-            "A tool for creating and managing shortened URLs, enabling users to generate short, shareable links with tracking features.",
-        sourceCode: "https://github.com/pratyush2374/Slinkit",
-        url: "https://slinkit.netlify.app",
+            "Call management system for 50+ employees, featuring fast database access, optimized SQL queries for quick retrieval, and seamless search, tagging, and call history tracking.",
     },
     {
-        name: "My Portfolio",
+        name: "Salasar Auction Landing Page",
         description:
-            "A personal website showcasing my skills, projects, and experience as a software developer. It serves as an online resume and portfolio.",
-        sourceCode: "Private repo",
-        url: "https://pratyush2374.vercel.app",
+            "Responsive landing page for Salasar Auction with seamless Webteck theme integration and a backend for user-generated content, achieving a Lighthouse score of 85.",
+        url: "https://salasarauction.com",
     },
     {
-        name: "Shade Mail",
+        name: "Myntra Functional Clone Website",
         description:
-            "Anonymous messaging platform built with Next.js, allowing users to send messages securely and privately, without revealing their identity.",
-        sourceCode: "https://github.com/pratyush2374/shade-mail",
+            "Myntra clone with seamless browsing, wishlist, and shopping cart functionality, featuring dynamic price updates for an enhanced shopping experience.",
+        sourceCode: "https://github.com/sumeetpevekar/Myntra-Clone",
+        url: "https://myntra-clone-client.vercel.app",
+    },
+    {
+        name: "Real-time Chat application",
+        description:
+            "Real-time chat application enabling instant communication on the same server, built with React.js, Express.js, Node.js, and Socket.io.",
+        sourceCode: "https://github.com/sumeetpevekar/Chat-Application",
         url: null,
     },
     {
-        name: "YouTube Backend",
+        name: "Corona Virus Map With Mapbox",
         description:
-            "Backend system for video hosting and management, handling uploads, streaming, and interactions such as likes, comments, and subscriptions.",
-        sourceCode: "https://github.com/pratyush2374/youtube-backend",
+            "Interactive COVID-19 map powered by Mapbox, allowing users to view global case data by country and state in real time.",
+        sourceCode: "https://github.com/sumeetpevekar/Corona-Virus-Map",
         url: null,
     },
     {
-        name: "Expense Calculator",
+        name: "Marksheet Generator",
         description:
-            "Simplifies expense tracking, allowing users to input expenses, categorize them, and analyze spending habits with visual representations.",
-        sourceCode: "https://github.com/pratyush2374/react-expense-calculator",
-        url: null,
-    },
-    {
-        name: "Simple Social Media",
-        description:
-            "Basic social media platform built to create posts and interact with others. Frontend-only, focusing on post creation and interaction.",
-        sourceCode: "https://github.com/pratyush2374/react-social-media",
-        url: null,
+            "Marksheet generator enabling users to upload subjects, marks, student and institute images, and download the Generated Marksheet as a PDF.",
+        sourceCode: "https://github.com/sumeetpevekar/Marksheet-generator",
+        url: "https://marksheet-generator.vercel.app",
     },
     {
         name: "Todo App",
         description:
             "Task manager app to organize activities with due dates, priorities, and completion tracking. Helps users stay on top of tasks and deadlines.",
-        sourceCode: "https://github.com/pratyush2374/react-todo",
+        sourceCode: "https://github.com/sumeetpevekar/Todo-App-React.js",
         url: null,
     },
     {
         name: "Netflix Landing Page Clone",
         description:
             "Responsive clone of Netflix’s homepage, showcasing featured content, user navigation, and providing a seamless browsing experience.",
-        sourceCode: null,
+        sourceCode: "https://github.com/sumeetpevekar/Netflix-clone-",
         url: null,
     },
     {
-        name: "Medicine Donating Website",
+        name: "Animate.style Clone",
         description:
-            "Platform facilitating the donation of unused medicines to those in need, enabling users to donate and request medicines securely.",
-        sourceCode: null,
-        url: null,
-    },
-    {
-        name: "College Merch Website",
-        description:
-            "E-commerce website for college merchandise, allowing browsing, purchasing, and tracking of items online, aimed at promoting college spirit.",
-        sourceCode: null,
-        url: null,
+            "Responsive clone of Netflix’s homepage, showcasing featured content, user navigation, and providing a seamless browsing experience.",
+        sourceCode: "https://github.com/sumeetpevekar/Animate.style-clone",
+        url: "https://animate-style-clone.vercel.app",
     },
 ];
 

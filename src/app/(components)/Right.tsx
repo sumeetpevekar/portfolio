@@ -26,7 +26,7 @@ const Right: React.FC = () => {
                 </div>
 
                 <div className={styles.statItem}>
-                    <h2 className={styles.statNumber}>20+</h2>
+                    <h2 className={styles.statNumber}>30+</h2>
                     <p className={styles.statLabel}>
                         PROJECTS
                         <br />

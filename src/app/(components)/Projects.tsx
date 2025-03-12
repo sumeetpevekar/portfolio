@@ -15,17 +15,7 @@ const Projects: React.FC = () => {
 
                     <div>
                         <p className={styles.descriptionAbt}>
-                            I have worked on diverse projects showcasing my web
-                            development and backend skills. PTAI, an AI-based
-                            fitness app with Next.js, provides personalized
-                            workout and nutrition plans. Shade Mail is an
-                            anonymous messaging platform, while I also built a
-                            backend system for video hosting with YouTube. Other
-                            projects include Slinkit, a URL shortener, Expense
-                            Calculator, Simple Social Media, Todo App,
-                            Calculator, Netflix Landing Page Clone, Medicine
-                            Donating Website, and College Merch Website for
-                            online merchandise.
+                        I have worked on diverse projects showcasing my web development and backend skills. Blog Website with Admin Panel, built with React.js and Node.js, provides a secure content management system with CRUD operations and authentication. Call Log - CRM enables efficient call tracking and database management for 50+ employees using CodeIgniter and SQL. SALASAR AUCTION Landing Page, developed using a theme, features improved SEO for better visibility. Myntra Functional Clone replicates a seamless shopping experience with Redux Toolkit. Additionally, I have built a real-time chat application using Socket.io, a Netflix static homepage, and a Marksheet Generator with downloadable PDFs. Other projects include a Corona Virus Map with Mapbox, Simple Social Media, Todo App, and Calculator.
                         </p>
                     </div>
 
