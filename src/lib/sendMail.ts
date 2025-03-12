@@ -1,9 +1,5 @@
 import nodemailer from "nodemailer";
-<<<<<<< HEAD
 import { google } from "googleapis";  // ✅ Make sure this import works
-=======
-import { google } from "googleapis";
->>>>>>> d48deff454ade1e4109ccac660d17f5465c54cbf
 
 const CLIENT_ID = process.env.CLIENT_ID;
 const CLIENT_SECRET = process.env.CLIENT_SECRET;
