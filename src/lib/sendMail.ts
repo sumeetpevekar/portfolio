@@ -41,8 +41,8 @@ async function sendEmail(fullName: string, email: string, message: string) {
     };
 
     // Send the email
-    transporter.sendMail(mailToPerson);
-    transporter.sendMail(mailToAdmin);
+    return transporter.sendMail(mailToPerson);
+    // transporter.sendMail(mailToAdmin);
 }
 
 export default sendEmail;
