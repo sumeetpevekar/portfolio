@@ -11,17 +11,27 @@ const skills: Skill[] = [
         category: "Programming Language",
         icon: "/skills/javascript.svg",
     },
+    { name: "Typescript", category: "Programming Language", icon: "/skills/typescript.svg" },
     {
         name: "jQuery",
         category: "Programming Language",
         icon: "/skills/jquery.svg",
     },
-    { name: "HTML", category: "Markup Language", icon: "/skills/html.svg" },
-    { name: "CSS", category: "Styling Language", icon: "/skills/css.svg" },
     {
         name: "React",
         category: "Frontend Library",
         icon: "/skills/react.svg",
+    },
+    { name: "Next.js", category: "Web Framework", icon: "/skills/nextjs.svg" },
+    {
+        name: "Express",
+        category: "Backend Framework",
+        icon: "/skills/express.svg",
+    },
+    {
+        name: "Node.js",
+        category: "Runtime Environment",
+        icon: "/skills/nodejs.svg",
     },
     {
         name: "PHP",
@@ -32,16 +42,6 @@ const skills: Skill[] = [
         name: "CodeIgniter",
         category: "Web Framework",
         icon: "/skills/codeigniter.svg",
-    },
-    {
-        name: "Express",
-        category: "Backend Framework",
-        icon: "/skills/express.svg",
-    },
-    {
-        name: "Node.js",
-        category: "Runtime Environment",
-        icon: "/skills/nodejs.svg",
     },
     {
         name: "Git & GitHub",
