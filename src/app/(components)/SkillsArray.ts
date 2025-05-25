@@ -6,27 +6,27 @@ interface Skill {
 
 
 const skills: Skill[] = [
-    {
-        name: "JavaScript",
-        category: "Programming Language",
-        icon: "/skills/javascript.svg",
-    },
-    { name: "Typescript", category: "Programming Language", icon: "/skills/typescript.svg" },
-    {
-        name: "jQuery",
-        category: "Programming Language",
-        icon: "/skills/jquery.svg",
-    },
+    { name: "Next.js", category: "Web Framework", icon: "/skills/nextjs.svg" },
     {
         name: "React",
         category: "Frontend Library",
         icon: "/skills/react.svg",
     },
-    { name: "Next.js", category: "Web Framework", icon: "/skills/nextjs.svg" },
     {
         name: "Express",
         category: "Backend Framework",
         icon: "/skills/express.svg",
+    },
+    { name: "Typescript", category: "Programming Language", icon: "/skills/typescript.svg" },
+    {
+        name: "JavaScript",
+        category: "Programming Language",
+        icon: "/skills/javascript.svg",
+    },
+    {
+        name: "jQuery",
+        category: "Programming Language",
+        icon: "/skills/jquery.svg",
     },
     {
         name: "Node.js",
@@ -38,6 +38,8 @@ const skills: Skill[] = [
         category: "Server-Side Language",
         icon: "/skills/php.svg",
     },
+    { name: "MongoDB", category: "Database", icon: "/skills/mongodb.svg" },
+    { name: "MySQL", category: "Database", icon: "/skills/mysql.svg" },
     {
         name: "CodeIgniter",
         category: "Web Framework",
@@ -48,8 +50,6 @@ const skills: Skill[] = [
         category: "Version Control",
         icon: "/skills/git.svg",
     },
-    { name: "MongoDB", category: "Database", icon: "/skills/mongodb.svg" },
-    { name: "MySQL", category: "Database", icon: "/skills/mysql.svg" },
     {
         name: "Socket.IO",
         category: "Real-time Library",
