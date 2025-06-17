@@ -1,8 +1,8 @@
 const journey = [
     {
-        name: "ZA Charity Feed Foundation",
-        duration: "May 2025 - Present",
-        degree: "MERN Stack Developer Intern",
+        name: "Perfectly Okay",
+        duration: "June 2025 - Present",
+        degree: "Full Stack Developer",
     },
     {
         name: "A One Salasar Pvt. Ltd.",
